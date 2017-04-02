@@ -10,6 +10,8 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Control.CheckForIllegalCrossThreadCalls = False
 
+        'aaaaaaaaaaaaaa
+
         ' writing default config in cfg pliczek
         If My.Computer.FileSystem.FileExists("C:\Documents and Settings\All Users\pcn.cfg") Then
 
