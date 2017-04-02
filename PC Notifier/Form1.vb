@@ -10,11 +10,6 @@ Public Class Form1
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Control.CheckForIllegalCrossThreadCalls = False
 
-        My.Computer.Network.DownloadFile _
-("https://synergia.librus.pl/przegladaj_nb/uczen",
-"C:\Documents and Settings\All Users\librus.txt",
-"", "", False, 2500, True)
-
         ' writing default config in cfg pliczek
         If My.Computer.FileSystem.FileExists("C:\Documents and Settings\All Users\pcn.cfg") Then
 
